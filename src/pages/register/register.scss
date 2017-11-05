@@ -1,0 +1,38 @@
+/**
+ * Pierre Munin -- 1106420
+ */
+ page-register {
+    .login-content {
+      background: rgba(255, 255, 255, 0.99);
+   
+   
+      ion-row {
+         align-items: center;
+         text-align: center;
+       }
+   
+       ion-item {
+          background: hsla(198, 25%, 92%, 0.99);
+           border: 0.5px solid #EFEFEF;
+           font-size: 0.9em;
+           border-bottom: 0px !important;
+       }
+   
+       .signup-col {
+         margin: 0px 16px 0px 16px;
+         padding-bottom: 20px;
+       }
+   
+       .item-inner {
+         border-bottom-color: #ffffff !important;
+         box-shadow: none !important;
+       }
+   
+       .submit-btn {
+          background: primary;
+         border-radius: 30px !important;
+         border: 1px solid #ffffff;
+         color: #363636;
+       }
+    }
+  }

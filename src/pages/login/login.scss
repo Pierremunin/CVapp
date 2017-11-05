@@ -1,0 +1,84 @@
+/**
+ * Pierre Munin -- 1106420
+ */
+ page-login {
+  
+
+  h1{
+      font-size: 52px;
+      margin-top:80px;
+      margin-left: 30px
+  }
+  .marginTop{
+      margin-top:400px;
+  }
+  .logo{
+      height: 100px;
+  }
+  .logo-row {
+    padding-top: 50px;
+    padding-bottom: 20px;
+  }
+
+
+  ion-row {
+     align-items: center;
+     text-align: center;
+     
+   }
+
+   ion-item {
+       border-radius: 30px !important;
+       padding-left: 30px !important;
+       font-size: 0.9em;
+       margin-bottom: 10px;
+       margin-top: 70px;
+       border: 1px solid #E9E9E9;
+       border-bottom: 0px !important;
+       box-shadow: none !important;
+   }
+
+   .signup-col {
+     margin: 0px 16px 0px 16px;
+     padding-bottom: 20px;
+   }
+
+   .item-inner {
+     border-bottom-color: #E9E9E9 !important;
+     box-shadow: none !important;
+
+   
+   }
+
+   .submit-btn {
+     background: hsla(54, 77%, 62%, 0.99);
+     border-radius: 30px !important;
+     border: 1px solid #FFFFFF;
+     margin-top: 25px;
+     color: #ffffff;
+   }
+
+   .input {
+     background: rgba(243, 242, 236, 0.99);
+     border: 0.5px solid #EFEFEF
+
+   }
+
+   .register-btn {
+     color: #363636;
+     font-size: 0.8em;
+   }
+
+   .element {    
+     height: 100%;
+     vertical-align: middle;
+  
+   }
+
+   .vertical-align-content {
+        display: flex!important;
+        align-content: center!important;
+        align-items: center!important;
+   
+   }
+}

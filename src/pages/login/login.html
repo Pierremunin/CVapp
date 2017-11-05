@@ -1,0 +1,23 @@
+<!--
+    Pierre Munin  1106420
+-->
+<ion-header>
+<h1> Welcome to my CV</h1>
+</ion-header>
+
+<ion-content class="login-content" padding>
+<div class="list list-inset">
+    <label class="item item-input">
+        <ion-input class="input" type="text" placeholder="Email" name="email" [(ngModel)]="user.email"  margin-top="80px" padding-left="0px" ></ion-input>                  
+  </label>
+  <label class="item item-input">
+      <ion-input class="input" type="password" placeholder="Password" name="password" [(ngModel)]="user.password"  margin-top="0.5px" padding-left="0px"></ion-input>        
+    </label>
+</div>
+
+<ion-row>
+  <button ion-button round outline class="submit-btn" full type="submit" (click)="login(user)">Login</button> 
+  <button ion-button class="register-btn" block clear (click)="createAccount()">Create New Account</button>
+</ion-row>  
+</ion-content>
+
